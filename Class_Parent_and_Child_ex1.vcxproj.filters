@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{cb99d413-f9d5-4f99-a30e-bd99d7e54780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="student">
+      <UniqueIdentifier>{2c1e82e5-ce05-432b-add7-21ceecc8531c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aspirant">
+      <UniqueIdentifier>{12e136e1-bf0e-45f7-8cd8-89c863540c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="student.cpp">
+      <Filter>student</Filter>
+    </ClCompile>
+    <ClCompile Include="aspirant.cpp">
+      <Filter>aspirant</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="student.h">
+      <Filter>student</Filter>
+    </ClInclude>
+    <ClInclude Include="aspirant.h">
+      <Filter>aspirant</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
